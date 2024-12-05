@@ -162,7 +162,7 @@ def zd8():
     for i in list:
         for j in range(2, 101):
             if i != j and i % j == 0:
-                list.remove()
+                list.remove(i)
     print(list)
 
 
